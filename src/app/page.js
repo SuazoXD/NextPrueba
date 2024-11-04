@@ -1,7 +1,4 @@
-import { useState } from 'react';
-import axios from 'axios';
-import { useRouter } from 'next/router'; // Importa useRouter para manejar redirecciones
-import styles from '../pages/styles/login.module.css';
+
 
 export default function Login() {
   const [email, setEmail] = useState('');
